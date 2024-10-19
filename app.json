@@ -14,11 +14,12 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pranavansuda.meditationapp"
     },
     "android": {
       "package": "com.pranavansuda.meditationapp",
-      "versionCode": 1,
+      "versionCode": 1.1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -27,6 +28,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-router", "expo-font"]
+    "plugins": ["expo-router", "expo-font"],
+    "extra": {
+      "eas": {
+        "projectId": "70a48df0-530b-4596-94b4-377364481831"
+      }
+    }
   }
 }
